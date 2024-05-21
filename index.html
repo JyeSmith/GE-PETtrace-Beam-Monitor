@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GE PETTrace BeamMonitor</title>
+    <script src="plotly-v1.58.5.js"></script>
+</head>
+<body>
+    <input type="file" id="fileInput" accept=".log">
+	
+	<br>
+	
+    <div id="infoLine1"></div>
+    <div id="infoLine2"></div>
+    <div id="infoLine3"></div>
+    <div id="infoLine4"></div>
+	
+	<br>
+	
+	<label for="xAxis">X-Axis:</label>
+	<select name="xAxis" id="xAxis"></select>
+	
+	<br>
+	
+	<label for="yAxis1">Y-Axis:</label>
+	<select name="yAxis1" id="yAxis1"></select>
+	<select name="yAxis2" id="yAxis2"></select>
+	<select name="yAxis3" id="yAxis3"></select>
+	<select name="yAxis4" id="yAxis4"></select>
+	
+	<br>
+  
+    <div id="plot"></div>
+	
+	<br>
+	
+    <div id="plotBeam"></div>
+	
+    <script src="script.js"></script>
+</body>
+</html>
